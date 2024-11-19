@@ -19,7 +19,6 @@ function dealMonsterDamage(damage) {
   monsterHealthBar.value = +monsterHealthBar.value - dealtDamage;
   return dealtDamage;
 }
-
 function dealPlayerDamage(damage) {
   const dealtDamage = Math.random() * damage;
   playerHealthBar.value = +playerHealthBar.value - dealtDamage;
